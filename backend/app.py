@@ -49,6 +49,7 @@ def download_video():
 
         # --- Handle cookies ---
         cookies_content = os.environ.get("YOUTUBE_COOKIES")
+        
         cookie_file_path = None
 
         if cookies_content:
