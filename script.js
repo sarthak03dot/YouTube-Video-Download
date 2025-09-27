@@ -1,5 +1,4 @@
-const BACKEND_URL =
-  "https://youtube-video-download-7a2y.onrender.com" || "http://127.0.0.1:5000";
+const BACKEND_URL = "http://127.0.0.1:5000";
 
 const downloadBtn = document.getElementById("downloadBtn");
 const status = document.getElementById("status");
