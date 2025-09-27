@@ -6,7 +6,7 @@ import tempfile
 import yt_dlp
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 def get_format_string(quality: str):
     """Return yt-dlp format string based on requested quality"""
